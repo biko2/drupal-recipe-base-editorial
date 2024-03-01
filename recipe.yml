@@ -1,0 +1,49 @@
+name: 'Editorial experience'
+description: 'Installs and configures common editorial modules.'
+type: 'Site'
+install:
+  - node
+  - datetime
+  - drupal:text
+  - bidasoa_admin
+  - bidasoa_keyvalue
+  - bidasoa_sprite_sheets
+  - allowed_formats
+  - config_ignore
+  - content_title_links_to_edition
+  - entity_type_clone
+  - field_group
+  - file_rename
+  - file_replace
+  - filefield_paths
+  - crop
+  - focal_point
+  - hook_event_dispatcher
+  - core_event_dispatcher
+  - imageapi_optimize_webp
+  - link_attributes
+  - media
+  - media_library
+  - media_entity_file_replace
+  - media_library_edit
+  - media_library_translate
+  - menu_item_extras
+  - menu_link_attributes
+  - metatag
+  - paragraphs
+  - paragraphs_browser
+  - pathauto
+  - redirect
+  - same_page_preview
+  - save_edit
+  - schema_metatag
+  - token
+  - translatable_config_pages
+  - ckeditor5
+  - field_ui
+
+config:
+  actions:
+    user.role.editor:
+      ensure_exists:
+        label: 'Editor'

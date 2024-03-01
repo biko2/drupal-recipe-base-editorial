@@ -1,0 +1,8 @@
+status: true
+name: 'Home page'
+type: homepage
+description: 'Homepage content'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
