@@ -43,6 +43,8 @@ install:
   - field_ui
 
 config:
+  import:
+    node: *
   actions:
     user.role.editor:
       ensure_exists:
