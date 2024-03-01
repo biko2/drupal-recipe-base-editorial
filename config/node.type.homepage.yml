@@ -1,7 +1,7 @@
 status: true
-name: 'Home page'
+name: 'Homepage'
 type: homepage
-description: 'Homepage content'
+description: 'Homepage'
 help: ''
 new_revision: true
 preview_mode: 1
